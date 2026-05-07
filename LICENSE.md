@@ -23,8 +23,3 @@ Este repositório é uma **vitrine de portfólio**. Ele contém apenas este READ
 
 **Todas as informações de contato estão disponíveis no** [README](./README.md).
 
----
-
-**Resumo:**  
-✅ Pode olhar, se inspirar e entrar em contato.  
-🚫 Não pode copiar ou usar o projeto como se fosse seu.
