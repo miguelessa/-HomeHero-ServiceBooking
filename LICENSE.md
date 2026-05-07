@@ -1,25 +1,24 @@
-# Licença de Uso – HomeHero
+# License Agreement – ​​HomeHero
 
-© 2026 HomeHero. Todos os direitos reservados.
+© 2026 HomeHero. All rights reserved.
 
-## 1. O que é este repositório?
+## 1. What is this repository?
 
-Este repositório é uma **vitrine de portfólio**. Ele contém apenas este README, screenshots, vídeos demo e informações sobre o projeto.  
-**O código fonte não está disponível publicamente.**
+This repository is a **portfolio showcase**. It contains only this README, screenshots, demo videos, and project information.
 
-## 2. O que você pode fazer?
+**The source code is not publicly available.**
 
-- Ler o README e entender a proposta do projeto
-- Ver as imagens e vídeos de demonstração
-- Compartilhar o link do repositório com outras pessoas
-- Entrar em contato comigo para conversar sobre investimento, parceria ou participação como estudante
+## 2. What can you do with it?
 
-## 3. O que você NÃO pode fazer
+- Read the README and understand the project proposal
+- View the demonstration images and videos
+- Share the repository link with others
+- Contact me to discuss investment, partnership, or participation as a student
 
-- Copiar, reproduzir ou distribuir qualquer parte do código (já que ele não está aqui)
-- Reivindicar este projeto como seu
-- Utilizar as imagens, vídeos ou texto do README sem autorização (a menos que seja para referenciar o projeto original)
+## 3. What you CANNOT do
 
+- Copy, reproduce, or distribute any part of the code (since it is not here)
+- Claim this project as your own
+- Use the images, videos, or text from the README without authorization (unless it is to reference the original project)
 
-**Todas as informações de contato estão disponíveis no** [README](./README.md).
-
+**All contact information is available in the** [README](./README.md).
