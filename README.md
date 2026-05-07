@@ -2,6 +2,8 @@
 
 > A production-ready cross-platform mobile and web application for booking household services with advanced theme system, multi-language support, and comprehensive user authentication.
 
+[![LICENSE Português](https://img.shields.io/badge/LICENSE-Português-green.svg)](./LICENSE.pt.md)
+[![README Português](https://img.shields.io/badge/README-Português-green.svg)](./README.pt.md)
 [![Status](https://img.shields.io/badge/Status-Alpha%2FBeta-orange.svg)]()
 [![Expo](https://img.shields.io/badge/Expo-v50+-blue.svg)](https://expo.dev/)
 [![React](https://img.shields.io/badge/React-19.1.0-61dafb.svg)](https://react.dev/)
@@ -11,91 +13,91 @@
 
 ---
 
-## 📋 Sumário
+## 📋 Summary
 
-- [Visão Geral](#-visão-geral)
+- [Overview](#-overview)
 - [Tech Stack](#-tech-stack)
-- [Arquitetura](#-arquitetura)
-- [Estrutura do Projeto](#-estrutura-do-projeto)
-- [Status de Desenvolvimento](#-status-de-desenvolvimento)
-- [Licença](#-licença)
+- [Architecture](#-architecture)
+- [Project Structure](#-project-structure)
+- [Development Status](#-development-status)
+- [License](#-license)
 
 ---
 
-## 🎯 Visão Geral
+## 🎯 Overview
 
-**HomeHero** é uma plataforma abrangente de agendamento de serviços domésticos desenvolvida como um projeto pessoal de portfólio. A aplicação demonstra melhores práticas em desenvolvimento cross-platform, gerenciamento de estado, internacionalização e design moderno.
+**HomeHero** is a comprehensive home service scheduling platform developed as a personal portfolio project. The application demonstrates best practices in cross-platform development, state management, internationalization, and modern design.
 
-### Plataformas Suportadas
+### Supported Platforms
 
-| Plataforma | Status | Framework |
+| Platform | Status | Framework |
 |----------|--------|-----------|
-| 📱 **Mobile (iOS/Android)** | ✅ Em Desenvolvimento | Expo + React Native |
-| 🌐 **Web** | ✅ Em Desenvolvimento | React 19 + Vite |
+| 📱 **Mobile (iOS/Android)** | ✅ Under Development | Expo + React Native |
+| 🌐 **Web** | ✅ Under Development | React 19 + Vite |
 
 ---
 
-## ✨ Features Principais
+## ✨ Main Features
 
-### 🎨 Sistema de Tema Avançado
-- Dark/light mode com detecção de preferência do sistema
-- Tokens de cor consistentes em toda a aplicação
-- Persistência de preferências do usuário
-- Transições suaves entre temas
+### 🎨 Advanced Theme System
+- Dark/light mode with system preference detection
+- Consistent color tokens throughout the application
+- Persistence of user preferences
+- Smooth transitions between themes
 
-### 🌍 Internacionalização (i18n)
-- Suporte completo para **6 idiomas**:
-  - 🇬🇧 English
-  - 🇵🇹 Português
-  - 🇩🇪 Deutsch
-  - 🇷🇺 Русский
-  - 🇫🇷 Français
-  - 🇪🇸 Español
-- Detecção automática do idioma do dispositivo
-- Persistência da preferência de idioma
+### 🌍 Internationalization (i18n)
+- Full support for **6 languages**:
+- 🇬🇧 English
+- 🇵🇹 Portuguese
+- 🇩🇪 German
+- 🇷🇺 Russian
+- 🇫🇷 French
+- 🇪🇸 Spanish
+- Automatic device language detection
+- Language preference persistence
 
-### 👤 Sistema de Autenticação
-- Login seguro com validação robusta
-- Gerenciamento de sessão
-- Armazenamento seguro de tokens
-- Logout com limpeza de dados sensíveis
+### 👤 Authentication System
+- Secure login with robust validation
+- Session management
+- Secure token storage
+- Logout with sensitive data cleanup
 
-### 📞 Sistema de Agendamento
-- Fluxo completo de booking
-- Seleção de data e hora
-- Gerenciamento de endereços
-- Seleção de método de pagamento
-- Confirmação com detalhes de preço
+### 📞 Scheduling System
+- Complete booking flow
+- Date and time selection
+- Address management
+- Payment method selection
+- Confirmation with price details
 
-### 💬 Chat em Tempo Real
-- Comunicação cliente-profissional
-- Indicadores de digitação
-- Histórico de mensagens
+### 💬 Real-Time Chat
+- Client-professional communication
+- Typing indicators
+- Message history
 - Read receipts
 
-### 📊 Dashboard do Usuário
-- Agendamentos ativos
-- Histórico de reservas
-- Estatísticas de gastos
-- Gerenciamento de perfil
+### 📊 User Dashboard
+- Active appointments
+- Booking history
+- Spending statistics
+- Profile management
 
-### 💳 Integração de Pagamentos
-- Suporte para múltiplos métodos
-- Gerenciamento seguro de dados
-- Histórico de transações
-- Geração de recibos
+### 💳 Payment Integration
+- Support for multiple methods
+- Secure data management
+- Transaction history
+- Receipt generation
 
-### 👨‍💼 Dashboard de Profissionais
-- Gerenciamento de trabalhos
-- Rastreamento de ganhos
-- Portfolio com vídeos/fotos
-- Sistema de avaliações
+### 👨‍💼 Professional Dashboard
+- Job management
+- Earnings tracking
+- Portfolio with videos/photos
+- Rating System
 
-### 🚨 Sistema de Relatórios
-- Denúncia de usuários (ainda em desenvolvimento)
-- Categorização de problemas
-- Detecção de spam
-- Interface de revisão
+### 🚨 Reporting System
+- User complaints (still under development)
+- Problem categorization
+- Spam detection
+- Review interface
 
 ---
 
@@ -124,7 +126,7 @@ Security:      DOMPurify (XSS protection)
 Icons:         Lucide React
 ```
 
-### Dependências Principais
+### Main Dependencies
 ```json
 {
   "react": "^19.1.0",
@@ -140,9 +142,9 @@ Icons:         Lucide React
 
 ---
 
-## 🏗 Arquitetura
+## 🏗 Architecture
 
-### Padrões de Arquitetura
+### Architectural Patterns
 
 #### State Management
 ```
@@ -154,7 +156,7 @@ React Context API
 └── ToastContext (Notificações)
 ```
 
-#### Estrutura de Componentes
+#### Component Structure
 ```
 Componentes
 ├── Screens/Pages (Roteadas)
@@ -163,47 +165,47 @@ Componentes
 └── Hooks (Customizados)
 ```
 
-#### Temas
-- **Light Mode**: Paleta clara otimizada para legibilidade
-- **Dark Mode**: Tema escuro que reduz fadiga ocular
-- **System**: Segue preferência do dispositivo
+#### Themes
+- **Light Mode**: Light palette optimized for readability
+- **Dark Mode**: Dark theme that reduces eye strain
+- **System**: Follows device preference
 
-#### Tokens de Design
+#### Design Tokens
 ```typescript
 Colors, Spacing, BorderRadius, Shadows, Typography
 Definidos centralmente no ThemeContext
 Reutilizáveis em toda a aplicação
 ```
 
-### Segurança
+### Security
 
-- ✅ Input validation em todos os formulários
-- ✅ XSS prevention (DOMPurify no web)
-- ✅ Armazenamento seguro de tokens
-- ✅ Logout com limpeza de dados
+- ✅ Input validation on all forms
+- ✅ XSS prevention (DOMPurify on the web)
+- ✅ Secure token storage
+- ✅ Logout with data cleansing
 - ✅ HTTPS ready
-- ✅ Sem credenciais hardcoded
-- ✅ Sem dados sensíveis em logs
+- ✅ No hardcoded credentials
+- ✅ No sensitive data in logs
 
 ### Performance
 
-#### Mobile
-- Lazy loading de screens
+####Mobile
+- Lazy screen loading
 - Optimized StyleSheet
 - Image optimization
 - List virtualization
 
-#### Web
-- Code splitting por rota
-- Lazy loading de componentes
-- useMemo e useCallback optimization
-- Virtual scrolling para listas
+####Web
+- Code splitting by route
+- Lazy loading of components
+- useMemo and useCallback optimization
+- Virtual scrolling for lists
 
-### Acessibilidade
+### Accessibility
 
 - ✅ WCAG 2.1 AA compliance (web)
 - ✅ Semantic HTML markup
-- ✅ Touch targets mínimos de 44x44px
+- ✅ Minimum touch targets of 44x44px
 - ✅ Screen reader support
 - ✅ Keyboard navigation
 - ✅ Color contrast > 4.5:1
@@ -211,54 +213,54 @@ Reutilizáveis em toda a aplicação
 
 ---
 
-## 📁 Estrutura do Projeto
+## 📁 Project Structure
 
 ```
 HomeHero/
 │
-├── expo/                           # Aplicativo Mobile (React Native)
+├── expo/                           # Mobile application (React Native)
 │   ├── app/
-│   │   ├── (tabs)/                # Navegação por abas
+│   │   ├── (tabs)/                # Tabbed navigation
 │   │   │   ├── _layout.tsx
 │   │   │   ├── index.tsx           # Home
-│   │   │   ├── booking.tsx         # Meus Agendamentos
-│   │   │   ├── messages.tsx        # Mensagens
-│   │   │   ├── profile.tsx         # Perfil
-│   │   │   └── showcase.tsx        # Serviços
-│   │   ├── auth/                   # Autenticação
+│   │   │   ├── booking.tsx         
+│   │   │   ├── messages.tsx        
+│   │   │   ├── profile.tsx         
+│   │   │   └── showcase.tsx        # Services
+│   │   ├── auth/                   # Authentication
 │   │   │   ├── login.tsx
 │   │   │   ├── signup.tsx
 │   │   │   └── welcome.tsx
-│   │   ├── booking/                # Fluxo de Agendamento
+│   │   ├── booking/                # Scheduling Flow
 │   │   │   ├── address.tsx
 │   │   │   ├── chat.tsx
 │   │   │   ├── confirm.tsx
 │   │   │   ├── details.tsx
 │   │   │   ├── schedule.tsx
 │   │   │   └── success.tsx
-│   │   ├── payment/                # Pagamentos
+│   │   ├── payment/                # Payment
 │   │   │   ├── add.tsx
 │   │   │   ├── methods.tsx
 │   │   │   └── pix.tsx
-│   │   ├── service/                # Serviços
+│   │   ├── service/                # Services
 │   │   │   ├── categories.tsx
 │   │   │   ├── category.tsx
 │   │   │   └── professional.tsx
-│   │   ├── profile/                # Gerenciamento de Perfil
+│   │   ├── profile/                # Profile Management
 │   │   │   ├── edit.tsx
 │   │   │   └── language.tsx
-│   │   ├── pro/                    # Dashboard de Profissional
+│   │   ├── pro/                    # Professional Dashboard
 │   │   │   ├── dashboard.tsx
 │   │   │   ├── earnings.tsx
 │   │   │   ├── jobs.tsx
 │   │   │   └── upload-reel.tsx
-│   │   ├── admin/                  # Painel de Administrador
+│   │   ├── admin/                  # Administrator Panel
 │   │   │   ├── dashboard.tsx
 │   │   │   ├── disputes.tsx
 │   │   │   └── professionals.tsx
-│   │   └── _layout.tsx             # Layout raiz com providers
+│   │   └── _layout.tsx             # Root layout with providers
 │   │
-│   ├── components/                 # Componentes Reutilizáveis
+│   ├── components/                 # Reusable Components
 │   │   ├── UI/
 │   │   ├── Common/
 │   │   └── ErrorBoundary.tsx
@@ -279,7 +281,7 @@ HomeHero/
 │   ├── types/                      # TypeScript Definitions
 │   │   └── index.ts
 │   │
-│   ├── public/locales/             # Traduções (i18n)
+│   ├── public/locales/             # Translations (i18n)
 │   │   ├── en/
 │   │   ├── pt/
 │   │   ├── de/
@@ -287,11 +289,11 @@ HomeHero/
 │   │   ├── fr/
 │   │   └── es/
 │   │
-│   ├── i18n.ts                     # Configuração i18next
-│   ├── app.json                    # Configuração Expo
+│   ├── i18n.ts                     # i18next configuration
+│   ├── app.json                    # Expo configuration
 │   └── package.json
 │
-├── my-react-app/                   # Aplicativo Web (React)
+├── my-react-app/                   # Web application (React)
 │   ├── src/
 │   │   ├── pages/
 │   │   │   ├── Home.tsx
@@ -350,142 +352,143 @@ HomeHero/
 │   └── package.json
 │
 ├── .gitignore
-├── README.md                       # Este arquivo
+├── README.md                       # This file
 └── LICENSE
 
 ```
 
 ---
 
-## 📊 Status de Desenvolvimento
+## 📊 Development Status
 
-### ✅ Concluído
+### ✅ Completed
 
-- [x] Estrutura base (Mobile + Web)
-- [x] Sistema de autenticação (UI)
-- [x] Sistema de tema (Dark/Light)
-- [x] Internacionalização (6 idiomas)
-- [x] Fluxo de agendamento
-- [x] Interface de chat
-- [x] Dashboard de usuário
-- [x] Dashboard de profissional
-- [x] Sistema de pagamentos (UI)
-- [x] Sistema de relatórios
-- [x] Painel administrativo
+- [x] Basic structure (Mobile + Web)
+- [x] Authentication system (UI)
+- [x] Theme system (Dark/Light)
+- [x] Internationalization (6 languages)
+- [x] Scheduling flow
+- [x] Chat interface
+- [x] User dashboard
+- [x] Professional dashboard
+- [x] Payment system (UI)
+- [x] Reporting system
+- [x] Administrative panel
 - [x] TypeScript strict mode
 - [x] Error boundaries
-- [x] Acessibilidade (WCAG 2.1 AA)
+- [x] Accessibility (WCAG 2.1 AA)
 
+### 🔮 Planned
 
-### 🔮 Planejado
-
-- [ ] Integração com backend real
-- [ ] Autenticação com servidor
-- [ ] Pagamentos em produção
-- [ ] Notificações push
-- [ ] Testes automatizados
+- [ ] Integration with real backend
+- [ ] Server-side authentication
+- [ ] Production payments
+- [ ] Push notifications
+- [ ] Automated testing
 - [ ] CI/CD pipeline
-- [ ] Verificação de profissionais
-- [ ] Vídeo chamada
-- [ ] Sistema de subscrição
-- [ ] Analytics avançado
+- [ ] Professional verification
+- [ ] Video calling
+- [ ] Subscription system
+- [ ] Advanced analytics
 - [ ] PWA (Progressive Web App)
 
 
 
-*Se quiser me ajudar implementando alguma feature, entre em contato no e-mail ao fim do arquivo.*
+*If you'd like to help me implement any feature, please contact me at the email address at the end of the file.*
 
 ---
 
-## 🔐 Informações de Segurança
+## 🔐 Security Information
 
-⚠️ **Status Atual**: Projeto em Alpha/Beta 
+⚠️ **Current Status**: Project in Alpha/Beta
 
-### Considerações de Segurança
+### Security Considerations
 
-- Validação de entrada em todos os formulários
-- Proteção contra XSS (web)
-- Armazenamento seguro de tokens
-- Sem hardcoding de credenciais
+- Input validation on all forms
+- Protection against XSS (web)
+- Secure token storage
+- No hardcoding of credentials
 - HTTPS ready
-- Estrutura preparada para autenticação JWT
-
+- Structure prepared for JWT authentication
 
 ---
 
-## 📈 Métricas do Projeto
+## 📈 Project Metrics
 
 ### Code Statistics
-- **Total de Linhas**: 15.000+
-- **Arquivos TypeScript**: 80+
-- **Componentes React**: 50+
-- **Telas/Páginas**: 25+
-- **Idiomas Suportados**: 6
+- **Total Lines**: 15,000+
+- **TypeScript Files**: 80+
+- **React Components**: 50+
+- **Screens/Pages**: 25+
+- **Supported Languages**: 6
 - **Type Coverage**: 95%+
 
 ### Bundle Sizes
-- **Mobile (Expo)**: ~3.5 MB (descomprimido), ~1.2 MB (comprimido)
+- **Mobile (Expo)**: ~3.5 MB (uncompressed), ~1.2 MB (compressed)
 - **Web**: ~850 KB (gzipped)
 
 ---
 
-## 🎓 Aprendizados & Melhores Práticas
+## 🎓 Lessons Learned & Best Practices
 
-Este projeto demonstra:
+This project demonstrates:
 
-- ✅ Desenvolvimento cross-platform com Expo
-- ✅ State management com Context API
-- ✅ Internacionalização com i18next
-- ✅ Sistema de tema dinâmico
+- ✅ Cross-platform development with Expo
+- ✅ State management with Context API
+- ✅ Internationalization with i18next
+- ✅ Dynamic theme system
 - ✅ TypeScript strict mode
-- ✅ Error boundaries e tratamento de erros
-- ✅ Acessibilidade web (WCAG 2.1)
+- ✅ Error boundaries and error handling
+- ✅ Web accessibility (WCAG 2.1)
 - ✅ Performance optimization
-- ✅ Estrutura escalável e modular
-- ✅ Separação de responsabilidades
+- ✅ Scalable and modular structure
+- ✅ Separation of responsibilities
 
 ---
 
-## 📝 Notas Importantes
+## 📝 Important Notes
 
 ---
 
-### 💼 Para investidores ou parceiros
+### 💼 For investors or partners
 
-Olha, o HomeHero começou como um projeto pessoal, mas não vou mentir: **eu acredito que ele pode virar um negócio de verdade**.
+Look, HomeHero started as a personal project, but I won't lie: **I believe it can become a real business**.
 
-Se você é investidor, aceleradora ou alguém que quer botar gasolina nesse projeto, vamos conversar.
+If you are an investor, accelerator, or someone who wants to fuel this project, let's talk.
 
-📌 O código é fechado por enquanto (proteção de portfólio, tá?), mas:
-- Posso mostrar o sistema funcionando, ao vivo
-- A gente alinha uma conversa séria sobre o que dá pra fazer juntos
-
-
----
-
-### 🎓 Para estudantes que querem participar
-
-Quer aprender na prática como se constrói um app de verdade? Esse é o lugar.
-
-O HomeHero também é um **laboratório real** pra quem estuda desenvolvimento (mobile, web, React, TS, o que vier).  
-Você pode contribuir com código, ideias, correções – e usar tudo isso no seu portfólio.
-
-**O que você ganha:**
-- Experiência de um projeto com arquitetura moderna
-- Seu nome no projeto + direito moral de mostrar o trampo 😎😂
-
-**O que eu peço:**
-- Vontade de aprender
-- Comprometimento simples (não precisa ser full-time)
-
-*As Informações de contato estão ao fim do arquivo.*
+📌 The code is closed for now (portfolio protection, okay?), but:
+- I can show you the system working live.
+- We can have a serious conversation about what we can do together.
 
 
 ---
 
-## 📄 Licença
+### 🎓 For students who want to participate
 
-Para detalhes completos, veja o arquivo [LICENSE](./LICENSE.md).
+Want to learn in practice how to build a real app? This is the place.
+
+HomeHero is also a **real lab** for those studying development (mobile, web, React, TS, whatever comes along).
+
+You can contribute code, ideas, corrections – and use all of that in your portfolio.
+
+**What you get:**
+
+- Experience on a project with modern architecture
+- Your name on the project + the moral right to show off your work 😎😂
+
+**What I ask:**
+
+- Willingness to learn
+- Simple commitment (doesn't need to be full-time)
+
+*Contact information is at the end of the file.*
+
+
+---
+
+## 📄 License
+
+For complete details, see the file [LICENSE](./LICENSE.md).
 
 ---
 
@@ -493,14 +496,14 @@ Para detalhes completos, veja o arquivo [LICENSE](./LICENSE.md).
 
 **HomeHero - Service Booking Platform**
 
-*Projeto pessoal para portfólio.*
+*Personal project for portfolio.*
 
-**Status**: 🚧 Alpha/Beta - Em Desenvolvimento
+**Status**: 🚧 Alpha/Beta - In Development
 
 **Mail**: 📧 [homehero@outlook.com.br](mailto:homehero@outlook.com.br)
 
 **Linkedin**: [<img src="https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white" alt="LinkedIn" />](https://www.linkedin.com/in/miguelessa/)
 
-[⬆ Voltar ao Topo](#-homehero)
+[⬆ Back to Top](#-homehero)
 
 </div>
