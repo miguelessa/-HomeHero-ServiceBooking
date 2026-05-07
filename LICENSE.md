@@ -1,36 +1,30 @@
-## 📄 Licença
+# Licença de Uso – HomeHero
 
 © 2026 HomeHero. Todos os direitos reservados.
 
-Este projeto é uma **demonstração de portfólio** e foi disponibilizado publicamente apenas para fins de avaliação técnica e visual.  
-Não se trata de software livre ou de código aberto.
+## 1. O que é este repositório?
 
-### O que você NÃO pode fazer
+Este repositório é uma **vitrine de portfólio**. Ele contém apenas este README, screenshots, vídeos demo e informações sobre o projeto.  
+**O código fonte não está disponível publicamente.**
 
-Sem autorização explícita e por escrito do autor, é proibido:
+## 2. O que você pode fazer?
 
-- Copiar, modificar, distribuir ou armazenar qualquer parte do código-fonte
-- Utilizar o código para qualquer finalidade comercial, educacional ou pessoal
-- Reivindicar autoria ou qualquer direito sobre o projeto
-- Remover ou alterar avisos de direitos autorais
+- Ler o README e entender a proposta do projeto
+- Ver as imagens e vídeos de demonstração
+- Compartilhar o link do repositório com outras pessoas
+- Entrar em contato comigo para conversar sobre investimento, parceria ou participação como estudante
 
-### O que está permitido
+## 3. O que você NÃO pode fazer
 
-- Visualizar o código publicamente no GitHub para entender as técnicas utilizadas
-- Fazer referência ao projeto como exemplo em seu portfólio ou currículo (atribuindo ao autor)
-- Entrar em contato com o autor para solicitar permissão de uso
+- Copiar, reproduzir ou distribuir qualquer parte do código (já que ele não está aqui)
+- Reivindicar este projeto como seu
+- Utilizar as imagens, vídeos ou texto do README sem autorização (a menos que seja para referenciar o projeto original)
 
-### Exceções e negociações
 
-Caso você tenha interesse em utilizar, licenciar ou investir no HomeHero, entre em contato.
-
-📧 **Contato**: [homehero@outlook.com.br](mailto:homehero@outlook.com.br)
-
-### Garantia e responsabilidade
-
-O código é fornecido **"como está"**, sem qualquer garantia. O autor não se responsabiliza por danos decorrentes do uso não autorizado.
+**Todas as informações de contato estão disponíveis no** [README](./README.md).
 
 ---
 
-**Resumo:** 🚫 Você pode olhar, mas não pode usar, copiar ou modificar.  
-✅ Se quiser usar comercialmente, me chame para conversarmos.
+**Resumo:**  
+✅ Pode olhar, se inspirar e entrar em contato.  
+🚫 Não pode copiar ou usar o projeto como se fosse seu.
