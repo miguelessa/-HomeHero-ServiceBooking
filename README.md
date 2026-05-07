@@ -8,8 +8,6 @@
 [![Expo](https://img.shields.io/badge/Expo-v50+-blue.svg)](https://expo.dev/)
 [![React](https://img.shields.io/badge/React-19.1.0-61dafb.svg)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-3178c6.svg)](https://www.typescriptlang.org/)
-[![Languages](https://img.shields.io/badge/Languages-6-4CAF50.svg)](#-internationalization)
-[![License](https://img.shields.io/badge/License-Personal%20Use-red.svg)](LICENSE)
 
 ---
 
