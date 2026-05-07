@@ -486,7 +486,7 @@ Você pode contribuir com código, ideias, correções – e usar tudo isso no s
 
 ## 📄 Licença
 
-Para detalhes completos, veja o arquivo [LICENSE](./LICENSE).
+Para detalhes completos, veja o arquivo [LICENSE](LICENSE).
 
 ---
 
